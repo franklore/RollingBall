@@ -78,7 +78,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\CameraFollower.cs" />
+    <Compile Include="Assets\script\CameraFollower.cs" />
     <Compile Include="Assets\script\GameController.cs" />
     <Compile Include="Assets\script\PlayerMover.cs" />
     <Compile Include="Assets\script\foodManager.cs" />

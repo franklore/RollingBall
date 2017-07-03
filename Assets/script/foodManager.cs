@@ -19,8 +19,11 @@ public class foodManager : MonoBehaviour {
 	}
     void OnTriggerEnter (Collider other)
     {
-        Destroy(gameObject);
-        pm.score += 1;
-        Debug.Log("collision");
+        if (other.tag == "Player")
+        {
+            Destroy(gameObject);
+            pm.score += 1;
+            Debug.Log("collision");
+        }
     }
 }
